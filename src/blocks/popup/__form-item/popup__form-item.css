@@ -1,0 +1,19 @@
+.popup__form-item {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    color: #000;      
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    max-width: 358px;
+    width: 99%;
+    /* margin-top: 45px; */
+    margin-bottom: 28px;
+    padding-bottom: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    outline:none; 
+}
+
