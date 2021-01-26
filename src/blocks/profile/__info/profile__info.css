@@ -2,7 +2,7 @@
     display: grid;
     grid-template-areas: 
     'name edit-button'
-    'about about';    
+    'about about';
     grid-column-gap: 19px;
     margin-top: 18px;
     margin-right: auto;
