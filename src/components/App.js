@@ -27,7 +27,7 @@ function App() {
         setSelectedCard(card);
     }
 
-    const closeAllPopups = () => {
+    function closeAllPopups () {
         setEditAvatarPopupOpen(false);
         setEditProfilePopupOpen(false);
         setAddPlacePopupOpen(false);
