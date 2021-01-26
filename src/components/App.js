@@ -35,7 +35,7 @@ function App() {
     }
 
     return (
-        <body className="page">
+        <div className="page">
 
             <div className="place-container">
 
@@ -88,8 +88,7 @@ function App() {
                 <ImagePopup card={selectedCard} onClose={closeAllPopups}/>
 
             </div>
-                
-    </body>
+        </div>
     );
 }
 
