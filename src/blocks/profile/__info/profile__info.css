@@ -3,17 +3,17 @@
     grid-template-areas: 
     'name edit-button'
     'about about';    
-    grid-column-gap: 19px;       
+    grid-column-gap: 19px;
     margin-top: 18px;
     margin-right: auto;
-    margin-left: 30px; 
-    padding-right: 16px; 
+    margin-left: 30px;
+    padding-right: 16px;
     height: 86px;  
 }
 
 @media screen and (max-width: 780px) {
     .profile__info {
-        margin: 0 auto; 
+        margin: 0 auto;
         padding-bottom: 36px; 
     }
 }

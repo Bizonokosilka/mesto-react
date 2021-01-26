@@ -4,13 +4,13 @@
     background-repeat: no-repeat;
     background-color: transparent;
     box-shadow: none;
-    outline:none; 
+    outline:none;
     color: #fff;
     width: 24px;
     height: 24px;
-    border: 1px solid #fff;   
-    grid-area: edit-button; 
-    cursor: pointer; 
+    border: 1px solid #fff;
+    grid-area: edit-button;
+    cursor: pointer;
     align-self: center;
 }
 

@@ -4,12 +4,12 @@
     background-repeat: no-repeat;
     min-width: 20.7px;
     min-height: 18.1px;
-    align-self: center;    
-    cursor: pointer;    
+    align-self: center;
+    cursor: pointer;
     box-shadow: none;
     border: none;
     padding: 0;   
-    outline:none;      
+    outline:none;
 }
 
 .elements__like-btn:hover {
