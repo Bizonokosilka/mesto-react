@@ -1,5 +1,3 @@
-[Ссылка на GitHub Pages](https://bizonokosilka.github.io/mesto-react/index.html)
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
