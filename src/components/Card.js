@@ -22,4 +22,3 @@ function Card(props) {
 
 export default Card;        
 
-/* { card, onCardClick } */

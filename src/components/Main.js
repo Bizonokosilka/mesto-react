@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './Card';
-import Api from '../utils/Api';
+import Api from '../utils/api';
 
 function Main(props) {
     const [userName, setUserName] = React.useState(false);
@@ -37,8 +37,11 @@ function Main(props) {
 
             <section className="elements">
                 <ul className="elements__list"> 
-                    {cards.map((card) => <Card key={card._id} onCardClick={props.onCardClick} card={card}/>)}                   
-                </ul>                           
+                    {cards.map((card) => (
+                    <Card key={card._id} onCardClick={props.onCardClick} card={card}/>
+                    )
+                )}
+                </ul>
             </section>
 
         </main>
