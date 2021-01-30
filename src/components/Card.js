@@ -20,12 +20,25 @@ function Card(props) {
 
     return (
         <li className="elements__item">                            
-                <img className="elements__image" src={props.card.link} alt={props.card.name} onClick={handleClick} />
-                <button className={`${isOwn ? `elements__trash-btn_active` : `elements__trash-btn`}`} type='button' onClick={handleDeleteClick}/> 
+                <img 
+                    className="elements__image" 
+                    src={props.card.link} 
+                    alt={props.card.name} 
+                    onClick={handleClick} 
+                />
+                <button 
+                    className={`${isOwn ? `elements__trash-btn elements__trash-btn_active` : `elements__trash-btn`}`} 
+                    type='button' 
+                    onClick={handleDeleteClick}
+                /> 
                 <div className="elements__footer">
                     <p className="elements__title">{props.card.name}</p>
                     <div className="elements__like-container">  
-                        <button className={`${isLiked ? `elements__like-btn_active` : `elements__like-btn`}`} type="button" onClick={handleLikeClick} />
+                        <button 
+                            className={`${isLiked ? `elements__like-btn elements__like-btn_active` : `elements__like-btn`}`} 
+                            type="button" 
+                            onClick={handleLikeClick} 
+                        />
                         <span className="elements__like-count">{props.card.likes.length}</span>
                     </div> 
                 </div>
