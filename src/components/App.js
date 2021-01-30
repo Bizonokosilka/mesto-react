@@ -35,6 +35,9 @@ function App() {
             .then((userInfo) => {
             setCurrentUser(userInfo);
         })
+        .catch((err) => {
+            console.log(`${err}`);
+        });
     }, [])
 
     function handleEditAvatarClick () {
@@ -119,7 +122,7 @@ function App() {
     function handleAddPlaceSubmit (inputValue) {
         api.createCard(inputValue)
             .then((newCard) => {
-                setCards([...cards, newCard]);
+                setCards([newCard, ...cards]);
                 closeAllPopups();
             })
             .catch((err) => {
@@ -133,7 +136,7 @@ function App() {
 
             <div className="place-container">
 
-            <CurrentUserContext.Provider value={currentUser}>
+                <CurrentUserContext.Provider value={currentUser}>
 
                     <Header/>
 
